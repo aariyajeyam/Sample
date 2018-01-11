@@ -9,3 +9,5 @@ git commit	//Commit Changes in Index
 	git commit -m 'comment'		// This avoids the vim text editor
 
 
+
+-To ignore certain files/directories create a file '.gitignore' and add them in there. Remember you would still need to add them to the git Repository
