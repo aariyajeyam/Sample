@@ -2,6 +2,8 @@ BASIC GIT COMMANDS!
 
 git init	//Initialize Local Git Repository
 git add <file>  //Add File(s) To Index
+git add . 	//Add all files
+git add *.<fileExtention> 	//Add files with file extention <fileExtention> 
 
 
 git status	//Check Status of Working Tree
@@ -10,4 +12,12 @@ git commit	//Commit Changes in Index
 
 
 
--To ignore certain files/directories create a file '.gitignore' and add them in there. Remember you would still need to add them to the git Repository
+- To ignore certain files/directories create a file '.gitignore' and add them in there. Remember you would still need to add them to the git Repository
+
+Branches
+- To create a new branch use: git branch <nameOfBranch>
+- You must add the new branch to the master 
+- To change branches use: git checkout <nameOfBranch>
+- Once you create a file in the branch you must add and commit to the branch
+- To change from branch to master use: git checkout master
+	- Notice that the files added in te branch will not be shown when in master. To see the files that were added in the branch use: git merge <nameOfBranch> in the master branch
