@@ -1,0 +1,7 @@
+git init	//Initialize Local Git Repository
+git add <file>  //Add File(s) To Index
+git status	//Check Status of Working Tree
+git commit	//Commit Changes in Index
+	git commit -m 'comment'		// This avoids the vim text editor
+
+
